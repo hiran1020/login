@@ -25,7 +25,7 @@ const Login = ({ setLoggedIn, getToken }) => {
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Email:</label>
+          <label>Enter your Email:</label>
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </div>
         <div>
